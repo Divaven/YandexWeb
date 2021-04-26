@@ -1,0 +1,10 @@
+<meta http-equiv="refresh" content="5">
+
+{% include 'current_user_header.html' %}
+<br>
+<center>
+    <p>{{user_1.cell}} vs {{user_2.cell}}</p>
+    <hr>
+    <p>Вы играете за: {{your_mode}}</p>
+    {{ game_in_html | safe }}
+</center>
